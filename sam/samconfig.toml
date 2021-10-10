@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-event-driven-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-2yrn7fbun3ea"
+s3_prefix = "sam-event-driven-app"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+image_repositories = []
